@@ -40,7 +40,7 @@ En el archivo descargado, la columna objetivo aparece como `Time_taken_min`; cor
 |---|---|
 | `Order_ID` | Es un identificador único. No describe las condiciones del pedido y podría causar memorización o sobreajuste. Aunque aparece asociado al objetivo por su unicidad, esa relación no es útil ni generalizable. |
 | `Order_Date` | La fecha cruda no debe entrar directamente al modelo como texto. Se propone filtrarla después de extraer variables como mes, día o temporada. |
-| `Dropoff_Zone` | En este dataset mostró una relación muy débil por categoría (`eta = 0.006`). Se deja fuera de la primera selección, aunque podría reincorporarse si un análisis posterior demuestra valor al combinarla con distancia y tráfico. |
+| `Dropoff_Zone` | En este dataset mostró una relación muy débil por categoría (`eta = 0.006`). No encontramos una influencia relevante si ya contamos con variables como tráfico o distancia. |
 | `Restaurant_Rating` | Es una señal indirecta de calidad del restaurante y presentó una relación muy débil con el objetivo (`r = 0.019`). Se deja fuera frente a variables operativas más directamente relacionadas con la entrega. |
 
 ## Nota sobre la selección
