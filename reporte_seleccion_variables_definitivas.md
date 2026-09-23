@@ -55,4 +55,4 @@ La selección es una **lista inicial de 20 columnas**: 19 predictoras y el objet
 - Variables predictoras: **19**.
 - Variable objetivo: **1**.
 - Columnas candidatas a filtrar: **4**.
-- Estado: **selección analítica; el filtrado aún no se ha ejecutado**.
+
